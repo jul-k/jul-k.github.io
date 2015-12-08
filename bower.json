@@ -1,0 +1,24 @@
+{
+  "name": "Portfolio",
+  "authors": [
+    "Julia Kudryavtseva <juliet.kudryavtseva@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "animate.css": "~3.4.0",
+    "font-awesome": "~4.5.0"
+  }
+}
