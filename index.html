@@ -6,6 +6,10 @@
   <!--------------- FAVICON ------------>
   <link rel="shortcut icon" href="images/JK-logo.png" type="image/png">
 
+  <!--------------- FONTS -------------->
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Kalam:700' rel='stylesheet' type='text/css'>
+
   <!--------------- STYLES -------------->
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
@@ -15,69 +19,72 @@
 <body>
 
   <!--------------- NAVIGATION ------------>
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-fixed-top">
     <div class="container container-fluid">
-      <div class="col-sm-2" id='logo'>
-        <a href="#aboutme"><img src="images/JK-logo.png" class="img img-responsive"></a>
+      <div class="col-sm-2">
+        <a href="#aboutme"><img src="images/JK-logo.png" class="img img-responsive" id='logo'></a>
       </div>
-      <div class="col-sm-10">
+      <div class="col-sm-7">
         <ul>
           <li><a href="#aboutme">About me</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contactme">Contact me</a></li>
         </ul>
       </div>
+      <div class="col-sm-3">
+        <a target='_blank' href="https://github.com/jul-k/"><i class="fa fa-3x fa-github"></i></a>
+        <a target='_blank' href="http://codepen.io/jul-k/"><i class="fa fa-3x fa-codepen"></i></a>
+        <a target='_blank' href="https://twitter.com/DolceV1ta/"><i class="fa fa-3x fa-twitter"></i></a>
+      </div>
     </div>
   </nav>
 
   <!--------------- ABOUT ME ---------->
-  <div class="container container-fluid" id='aboutme'>
+  <div id='aboutme'>
+    <div class="container container-fluid">
     <div class="row">
-      <div class="col-sm-offset-2 col-sm-8">
-        <p>Hi! My name is Julia Kudryavtseva. I'm a Front end Developer, experienced with designing and building projects in Html/CSS/Javascript. A hardworking, positive individual,
+      <div class="col-sm-12">
+        <p>I'm Julia Kudryavtseva, a Front-end Developer experienced with designing and building projects in Html/CSS/Javascript. A hardworking, positive individual,
         willing to learn and adapt to new skills and knowledge.</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12">
-        <h2>Tech I Like to Work With</h2>
-        <span class="label label-success">html5</span>
-        <span class="label label-success">css3</span>
-        <span class="label label-success">twitter-bootstrap</span>
-        <span class="label label-success">jquery</span>
-        <span class="label label-success">javascript</span>
-        <span class="label label-success">angular.js</span>
-        <span class="label label-success">sublimetext</span>
-        <span class="label label-success">git</span>
-        <span class="label label-success">bower</span>
-        <span class="label label-success">gulp</span>
-        <span class="label label-success">npm</span>
-        <span class="label label-success">yeoman</span>
-        <span class="label label-success">github</span>
-        <span class="label label-success">heroku</span>
-        <span class="label label-success">bitbucket</span>
-        <span class="label label-success">pivotaltracker</span>
+      <div class="col-sm-offset-1 col-sm-10">
+        <h2>Tech I Like <span></span></h2>
+        <ul>
+          <li>html5</li>
+          <li>css3</li>
+          <li>twitter-bootstrap</li>
+          <li>jquery</li>
+          <li>javascript</li>
+          <li>angular.js</li>
+          <li>sublimetext</li>
+          <li>git</li>
+          <li>bower</li>
+          <li>gulp</li>
+          <li>npm</li>
+          <li>yeoman</li>
+          <li>github</li>
+          <li>heroku</li>
+          <li>bitbucket</li>
+          <li>pivotaltracker</li>
+        </ul>
       </div>
     </div>
-    <div class="row">
-      <div class="col-sm-12">
-        <h2>Tech I dislike</h2>
-        <span class="label label-danger">php</span>
-        <span class="label label-danger">wordpress</span>
-      </div>
     </div>
   </div>
+
 
   <!---------------- PORTFOLIO -------->
   <div class="container container-fluid" id='portfolio'>
     <h1>My Portfolio</h1>
     <div class="row">
-      <div class="col-sm-6"><a href="https://jul-travel.herokuapp.com/"><img src="images/poleteli.png" class="img img-responsive"></a></div>
-      <div class="col-sm-6"><a href="https://martin.meteor.com/"><img src="images/martin.png" class="img img-responsive"></a></div>
+      <div class="col-sm-6"><a target='_blank' href="https://jul-travel.herokuapp.com/"><img src="images/poleteli.png" class="img img-responsive"></a></div>
+      <div class="col-sm-6"><a target='_blank' href="https://martin.meteor.com/"><img src="images/martin.png" class="img img-responsive"></a></div>
     </div>
     <div class="row">
-      <div class="col-sm-6"><a href="https://pizzzashop.herokuapp.com/app/"><img src="images/pizza.png" class="img img-responsive"></a></div>
-      <div class="col-sm-6"><a href=""><img src="" class="img img-responsive"></a></div>
+      <div class="col-sm-6"><a target='_blank' href="https://pizzzashop.herokuapp.com/app/"><img src="images/pizza.png" class="img img-responsive"></a></div>
+      <div class="col-sm-6"><a target='_blank' href=""><img src="" class="img img-responsive"></a></div>
     </div>
   </div>
 
@@ -101,6 +108,7 @@
       </div>
     </div>
   </div>
+
   <!---------------- SCRIPTS ---------->
   <script type="text/javascript" src='bower_components/jquery/dist/jquery.min.js'></script>
 </body>
