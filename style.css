@@ -122,7 +122,63 @@ ul li a:hover, ul li a:focus, ul li a:active{
 }
 
 #portfolio .col-sm-6 {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
+}
+
+.imgWrap {
+  display: inline-block;
+  background-color: #fff;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.imgWrap img {
+  opacity: 1;
+  width: 550px;
+  height: 350px;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  z-index: -10;
+}
+
+.imgWrap:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+img:hover,
+.imgWrap:hover img {
+  opacity: 0.1;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.project-title {
+  color: #fff;
+  opacity: 0;
+  transform: translate3d(0, 24px, 0) scaleY(0);
+  transition: all 0.4s linear;
+  font-family: 'Kalam', cursive;
+  text-transform: uppercase;
+}
+
+.imgWrap:hover .project-title {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0) scaleY(1);
+  transform: translate3d(0, 0, 0) scaleY(1);
 }
 
 /**********CONTACT ME*******/

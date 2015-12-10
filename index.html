@@ -77,14 +77,27 @@
 
   <!---------------- PORTFOLIO -------->
   <div class="container container-fluid" id='portfolio'>
-    <h1>My Portfolio</h1>
+    <!-- <h1>My Portfolio</h1> -->
     <div class="row">
-      <div class="col-sm-6"><a target='_blank' href="https://jul-travel.herokuapp.com/"><img src="images/poleteli.png" class="img img-responsive"></a></div>
-      <div class="col-sm-6"><a target='_blank' href="https://martin.meteor.com/"><img src="images/martin.png" class="img img-responsive"></a></div>
+      <div class="col-sm-6">
+        <a target='_blank' href="https://jul-travel.herokuapp.com/"><span class='imgWrap'>
+        <img src="images/poleteli.png" class="img img-responsive">
+        <h2 class="project-title">Travel agency</h2></span></a>
+      </div>
+      <div class="col-sm-6">
+        <a target='_blank' href="https://martin.meteor.com/"><span class='imgWrap'><img src="images/martin.png" class="img img-responsive">
+        <h2 class="project-title">Mister Martin</h2></span></a>
+      </div>
     </div>
     <div class="row">
-      <div class="col-sm-6"><a target='_blank' href="https://pizzzashop.herokuapp.com/app/"><img src="images/pizza.png" class="img img-responsive"></a></div>
-      <div class="col-sm-6"><a target='_blank' href=""><img src="" class="img img-responsive"></a></div>
+      <div class="col-sm-6">
+        <a target='_blank' href="https://pizzzashop.herokuapp.com/app/"><span class='imgWrap'><img src="images/pizza.png" class="img img-responsive">
+        <h2 class="project-title">Pizza shop</h2></span></a>
+      </div>
+      <div class="col-sm-6">
+        <a target='_blank' href=""><span class='imgWrap'><img src="" class="img img-responsive">
+        <h2 class="project-title"></h2></span></a>
+      </div>
     </div>
   </div>
 
@@ -111,5 +124,6 @@
 
   <!---------------- SCRIPTS ---------->
   <script type="text/javascript" src='bower_components/jquery/dist/jquery.min.js'></script>
+  <script type="text/javascript" src='main.js'></script>
 </body>
 </html>
