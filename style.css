@@ -117,7 +117,7 @@ ul li a:hover, ul li a:focus, ul li a:active{
 
 /*********PORTFOLIO********/
 #portfolio {
-  padding-top: 80px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -128,41 +128,41 @@ ul li a:hover, ul li a:focus, ul li a:active{
 .imgWrap {
   display: inline-block;
   background-color: #fff;
-  -moz-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .imgWrap img {
   opacity: 1;
   width: 550px;
-  height: 350px;
-  -moz-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -webkit-transition: all 1s ease-in-out;
+  height: 400px;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   z-index: -10;
 }
 
 .imgWrap:hover {
   background-color: rgba(0, 0, 0, 0.9);
-  -moz-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 img:hover,
 .imgWrap:hover img {
   opacity: 0.1;
-  -moz-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -183,15 +183,64 @@ img:hover,
 
 /**********CONTACT ME*******/
 #contactme {
-  padding-top: 80px;
+  padding-top: 20px;
   margin-bottom: 20px;
 }
 
 #contactme h1 {
   text-align: center;
+  font-family: 'Kalam', cursive;
+  text-decoration: underline;
 }
 
 form {
   width: 400px;
-  margin: 0 auto;
+  margin: 15px auto 0;
+}
+
+.feedback-input {
+  color: #000;
+  font-family: 'Kalam', cursive;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #84BA8B;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border:2px solid #708A74;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: 'Kalam', cursive;
+  width: 100%;
+  background: #84BA8B;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+[type="submit"]:hover {
+  background: #708A74;
 }
