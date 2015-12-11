@@ -24,7 +24,7 @@
     window.timekitBookingConfig = {
       name: 'Julia Kudryavtseva',
       email: 'juliet.kudryavtseva@gmail.com',
-      apiToken: '9nAE2Zks0C1h8kSDFCZ5pdvN9fFOGCYl',
+      apiToken: 'c31uw93U0aw3CifzEX05b3vIkfJFGgEz',
       calendar: 'ff20b172-9a2d-4491-ab0c-e1f387a9b343',
       avatar: 'https://lh5.googleusercontent.com/-qWMxAetiTEc/AAAAAAAAAAI/AAAAAAAACcc/V5cosumwr7w/photo.jpg',
       timekitFindTime: {
@@ -35,6 +35,20 @@
             },
             {
               exclude_weekend: { }
+            }
+          ],
+          or: [
+            {
+              specific_time: {
+                start: '00',
+                end: '12'
+              }
+            },
+            {
+              specific_time: {
+                start: '13',
+                end: '24'
+              }
             }
           ]
         }
