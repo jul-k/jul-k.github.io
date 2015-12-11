@@ -249,3 +249,16 @@ textarea {
 [type="submit"]:hover {
   background: #708A74;
 }
+
+/************FOOTER**********/
+footer {
+  height: 130px;
+  background: #BECFC0;
+  margin-top: 40px;
+}
+
+footer img {
+  height: 130px !important;
+  float: right;
+  transition: all 0.5s ease-in-out;
+}
