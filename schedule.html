@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JK - Calendar</title>
+
+  <!--------------- FAVICON ------------>
+  <link rel="shortcut icon" href="images/JK-logo.png" type="image/png">
+
+  <!--------------- FONTS -------------->
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Kalam:700' rel='stylesheet' type='text/css'>
+
+  <!--------------- STYLES -------------->
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="bookingjs">
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://cdn.timekit.io/booking-js/v1/booking.min.js" defer></script>
+  <script type="text/javascript">
+    window.timekitBookingConfig = {
+      name: 'Julia Kudryavtseva',
+      email: 'juliet.kudryavtseva@gmail.com',
+      apiToken: '9nAE2Zks0C1h8kSDFCZ5pdvN9fFOGCYl',
+      calendar: 'ff20b172-9a2d-4491-ab0c-e1f387a9b343',
+      avatar: 'https://lh5.googleusercontent.com/-qWMxAetiTEc/AAAAAAAAAAI/AAAAAAAACcc/V5cosumwr7w/photo.jpg',
+      timekitFindTime: {
+        filters: {
+          and: [
+            {
+              business_hours: { }
+            },
+            {
+              exclude_weekend: { }
+            }
+          ]
+        }
+      },
+      localization: {
+        timeDateFormat: '24h-dmy-mon'
+      }
+    }
+  </script>
+</div>
+</body>
+</html>
