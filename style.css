@@ -44,6 +44,11 @@ ul li a:hover, ul li a:focus, ul li a:active{
   color: #23527c;
 }
 
+.fa-lg {
+  line-height: 1em;
+  color: #C91616;
+}
+
 .fa-twitter {
   color: #41ABE1;
 }
